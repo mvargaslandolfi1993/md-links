@@ -1,0 +1,44 @@
+{
+    "name": "md-links",
+    "version": "1.0.0",
+    "description": "Library that allows extracting and validating links in markdown files, as well as obtaining statistics from them",
+    "main": "src/index.js",
+    "engines": {
+        "node": ">=14.x"
+    },
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node src/index.js -h"
+    },
+    "bin": {
+        "md-links": "src/cli.js"
+    },
+    "author": "Miguel Vargas",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mvargaslandolfi1993/md-links.git"
+    },
+    "license": "ISC",
+    "homepage": "https://github.com/mvargaslandolfi1993/md-links#readme",
+    "keywords": [
+        "cli",
+        "api",
+        "node",
+        "markdown",
+        "jest"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cli-color": "^2.0.3",
+        "cli-table": "^0.3.11",
+        "inquirer": "^9.1.0",
+        "inquirer-file-tree-selection-prompt": "^2.0.4",
+        "log-symbols": "^5.1.0",
+        "shelljs": "^0.8.5",
+        "yargs": "^17.5.1"
+    }
+}
